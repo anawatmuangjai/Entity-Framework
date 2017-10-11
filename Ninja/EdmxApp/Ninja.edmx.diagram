@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c409fce6bb3640e0b2dcc3065e954086" Name="Diagram1">
+        <EntityTypeShape EntityType="NinjaModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NinjaModel.Clan" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NinjaModel.NinjaEquipment" Width="1.5" PointX="5.875" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NinjaModel.Ninja" Width="1.5" PointX="3.25" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="NinjaModel.FK_dbo_Ninjas_dbo_Clans_ClanId" ManuallyRouted="false" />
+        <AssociationConnector Association="NinjaModel.FK_dbo_NinjaEquipments_dbo_Ninjas_Ninja_Id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,10 @@
+D:\Test\Ninja\EdmxApp\bin\Debug\EdmxApp.exe.config
+D:\Test\Ninja\EdmxApp\bin\Debug\EdmxApp.exe
+D:\Test\Ninja\EdmxApp\bin\Debug\EdmxApp.pdb
+D:\Test\Ninja\EdmxApp\bin\Debug\EntityFramework.dll
+D:\Test\Ninja\EdmxApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Test\Ninja\EdmxApp\bin\Debug\EntityFramework.xml
+D:\Test\Ninja\EdmxApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Test\Ninja\EdmxApp\obj\Debug\EdmxApp.csprojResolveAssemblyReference.cache
+D:\Test\Ninja\EdmxApp\obj\Debug\EdmxApp.exe
+D:\Test\Ninja\EdmxApp\obj\Debug\EdmxApp.pdb

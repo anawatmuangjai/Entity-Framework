@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NinjaModelStoreContainer" CdmEntityContainer="NinjaEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="NinjaModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clans">
+      <EntityTypeMapping TypeName="NinjaModel.Clan">
+        <MappingFragment StoreEntitySet="Clans">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ClanName" ColumnName="ClanName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NinjaEquipments">
+      <EntityTypeMapping TypeName="NinjaModel.NinjaEquipment">
+        <MappingFragment StoreEntitySet="NinjaEquipments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Ninja_Id" ColumnName="Ninja_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ninjas">
+      <EntityTypeMapping TypeName="NinjaModel.Ninja">
+        <MappingFragment StoreEntitySet="Ninjas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ServedInOniwaban" ColumnName="ServedInOniwaban" />
+          <ScalarProperty Name="ClanId" ColumnName="ClanId" />
+          <ScalarProperty Name="DateOfBrith" ColumnName="DateOfBrith" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
